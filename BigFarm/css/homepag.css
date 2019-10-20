@@ -1,0 +1,292 @@
+body{
+	background-color: #00FF59;
+}
+
+.BigBro{
+	background-color: #D9FF00;
+    width: 80rem;
+    height: 35rem;
+    margin-left: 2rem;
+    margin-top: 2%;
+}
+.workPlace{
+	width: 70%;
+	background-color: #8A5000;
+}
+.Market{
+	width: 27%;
+	background-color: #FFDB4D;
+	margin-right: 1%;
+	float: right;
+}
+.litBro{
+	height: 95%;
+	display: inline-block;
+	margin-top: 1%;
+	margin-left: 1%;
+	text-align: center;
+}
+/*Here ends the style of game-table and starts the style of the game itself */
+table{
+	border:2px solid black;
+	width: 100%;
+	height: 100%;
+}
+th,td{
+	border:1px solid black;
+}
+
+/* Here ends the style of garden and starts the style of the Market*/
+.Bank{
+	height: 10%;
+}
+.exchange{
+	background-color: #B85900;
+	border-radius: 10px;
+	padding-top: 1%;
+	padding-bottom: 4%;
+	height: 9%;
+	border: 1px solid black;
+	font-family: ZCOOL QingKe HuangYou;
+	font-size: 25px;
+}
+.logo{
+	height: 54%;
+	display: block;
+}
+.Jimmy{
+	width: 95%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
+/*Here ends the style of Buy and sell butons and starts the style of the info about money and resources*/
+.progress{
+	width: 35%;
+	display: inline-block;
+	float: left;
+	margin:1%;
+	height: 40%;
+	margin-left: 6%;
+	padding-top: 3%;
+	padding-left: 5%;
+	text-align: left;
+	font-family: Lobster;
+    background-color:#A36700;
+    border-radius: 10px;
+}
+.buybutton{
+	width: 20%;
+	float: right;
+    height: 120%;
+    margin-right: 1%;
+    margin-top: -4%;
+    border-radius: 20px;
+    background-color: #FFDD1F;
+}
+/*Here ends the style of the buttons and start the style of hided parts*/
+.sellul{display: none;}
+.buyul{display: none;}
+ul{
+	padding-top: 6%;
+	padding-right: 15%;
+	margin-top: -1%;
+	text-align: left;
+}
+li{
+	list-style-type: none;
+	text-align: left;
+}
+.allIHave{
+	font-family: Lobster;
+	padding: 0;
+	margin-top: -3%;
+	margin-right: 7%;
+	width: 45%;
+	float: right;
+	background-color: #A36700 ;
+	display: none;
+	border-radius: 10px;
+}
+.liSize{
+	background-color: #C27400;
+	border: 2px solid black;
+	border-radius: 20px;
+	width: 100%;
+	float: center;
+	margin: 2%;
+	height: 30px;
+	padding-top: 5%;
+	padding-left: 5%;
+	font-family: ZCOOL XiaoWei;
+}
+/*Here ends the style of hired parts and is starting the code that make them apear and disapear*/
+.sell:hover + .sellul{
+	display: block;
+}
+.sell:hover + .logo{
+	display: none;
+}
+.buy:hover + .buyul{
+	display: block;
+}
+.sellul:hover{
+	display: block;
+}
+.buyul:hover{
+	display: block;
+}
+.resources:hover + .allIHave{
+	display: block;
+}
+/*Here starts the garden div style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#g1{
+	background-color: #8A5000;
+}
+td{
+	overflow: auto;
+	width: 216px;
+	height: 125px;
+}
+.garden{
+	padding: 0;
+}
+.img{
+	height: 125px;
+	width: 216px;
+	float: left;
+	z-index: 1000;
+}
+#img1:hover + #t1{
+	display: block;
+}
+#img2:hover + #t2{
+	display: block;
+}
+#img3:hover + #t3{
+	display: block;
+}
+#img4:hover + #t4{
+	display: block;
+}
+#img5:hover + #t5{
+	display: block;
+}
+#img6:hover + #t6{
+	display: block;
+}
+#img7:hover + #t7{
+	display: block;
+}
+#img8:hover + #t8{
+	display: block;
+}
+#img9:hover + #t9{
+	display: block;
+}
+#img10:hover + #t10{
+	display: block;
+}
+#img11:hover + #t11{
+	display: block;
+}
+#img12:hover + #t12{
+	display: block;
+}
+#img13:hover + #t13{
+	display: block;
+}
+#img14:hover + #t14{
+	display: block;
+}
+#img15:hover + #t15{
+	display: block;
+}
+#img16:hover + #t16{
+	display: block;
+}
+#t1:hover, #t2:hover, #t3:hover, #t4:hover, #t5:hover, #t6:hover, #t7:hover, #t8:hover, #t9:hover, #t10:hover, #t11:hover, #t12:hover, #t13:hover, #t14:hover, #t15:hover, #t16:hover{
+display: block;
+}
+/*here starts the tools style*/
+.tools{
+			background-color: #FFC61A;
+			border: 2px solid black;
+			border-radius: 25px;
+			width: 200px; 
+			position: absolute;
+			display: none;
+		}
+.toolsul{
+			list-style: none;
+		}
+.toolsli{
+	text-align: center;
+}
+.toolsbut{
+	   		font-family: ZCOOL XiaoWei;
+	   		background-color: #FFC61A;
+	   		margin: 1px;
+	   		border-color: #DC7D09;
+	   		font-size: 15px;
+	   		width: 80%;
+}		
+/*Here is a lot of text for tools positioning*/
+#t1, #t2, #t3, #t4{
+	top: 100px;
+}
+#t5, #t6, #t7, #t8{
+	top: 250px;
+}
+#t9, #t10 ,#t11, #t12{
+	top:350px;
+}
+#t13, #t14, #t15 ,#t16{
+	top: 400px;
+}
+#t1, #t5, #t9, #t13{
+    left: 250px;
+}
+#t2, #t6, #t10, #t14{
+	left: 480px;
+}
+#t3, #t7, #t11, #t15{
+	left: 700px;
+}
+#t4, #t8, #t12, #t16{
+	left: 850px;
+}
+
+
+
+#Block{
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+	width: 250px;
+	height: 150px;
+}

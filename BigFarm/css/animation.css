@@ -1,0 +1,45 @@
+/*
+   Here is the animation activator
+*/
+.plant1{
+    width: 216px;
+    height: 125px;
+    animation-name: grow1;
+    animation-duration: 15s;
+    animation-timing-function: ease-in;
+}  
+.plant2{
+    width: 216px;
+    height: 125px;
+    animation-name: grow1;
+    animation-duration: 25s;
+    animation-timing-function: ease-in;
+}
+.plant3{
+    width: 216px;
+    height: 125px;
+    animation-name: grow1;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+}
+.plant4{
+    width: 216px;
+    height: 125px;
+    animation-name: grow1;
+    animation-duration: 35s;
+    animation-timing-function: ease-in;
+}
+/* The animation is here
+*/
+
+@keyframes grow1 {
+          from {
+            width:100px ;
+            height:70px ;    
+          }
+          to {
+            width: 216px;
+            height: 125px;
+          }
+
+

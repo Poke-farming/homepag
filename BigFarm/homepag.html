@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BigFarm</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|ZCOOL+QingKe+HuangYou|ZCOOL+XiaoWei" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/homepag.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" type="text/css" href="css/tutorial.css">
+</head>
+</head>
+</head>
+<body>
+	<!-- BigBro is the game-table, litBro are 2 parts of it, workPlace is the Table and Market is the right div-->
+<div class="BigBro">
+	<div class="workPlace litBro">
+		<table>
+			<tr>
+				<td>
+					<div class="garden" id="g1">
+						<img id="img1" class="img" src="images/grass.png" >
+                        <div class="tools" id="t1">
+	                        <ul class="toolsul">
+		                        <li class="toolsli"><button id="li1" onclick="plough(0)" class="toolsbut"><b>plough</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrozanas(0)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+		                        <li class="toolsli"><button onclick="plantpinap(0)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrazzberry(0)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+		                        <li class="toolsli"><button onclick="plantnanab(0)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+	                        </ul>
+                        </div>
+				    </div>
+				</td>
+				<td>
+					<div class="garden" id="g2">
+						<img id="img2" class="img"  src="images/grass.png">
+                        <div class="tools" id="t2">
+                        	<ul class="toolsul">
+                        		<li class="toolsli"><button id="li2" onclick="plough(1)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(1)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button  onclick="plantpinap(1)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(1)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(1)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g3">
+						<img id="img3" class="img"  src="images/grass.png">
+						<div class="tools" id="t3">
+                        	<ul class="toolsul">
+                        		<li class="toolsli"><button id="li3" onclick="plough(2)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(2)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(2)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(2)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(2)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g4">
+						<img id="img4" class="img"  src="images/grass.png">
+						<div class="tools" id="t4">
+                        	<ul class="toolsul">
+                        		<li class="toolsli"><button id="li4" onclick="plough(3)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(3)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(3)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(3)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(3)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="garden" id="g5">
+						<img id="img5" class="img"  src="images/grass.png">
+						<div class="tools" id="t5">
+                        	<ul class="toolsul">
+                        		<li class="toolsli"><button id="li5" onclick="plough(4)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(4)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(4)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(4)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(4)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g6">
+						<img id="img6" class="img"  src="images/grass.png">
+						<div class="tools" id="t6">
+                        	<ul class="toolsul">
+                        		<li class="toolsli"><button id="li6" onclick="plough(5)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(5)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(5)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(5)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(5)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g7">
+						<img id="img7" class="img"  src="images/grass.png">
+						<div class="tools" id="t7">
+                        	<ul class="toolsul">
+                        		<li class="toolsli"><button id="li7" onclick="plough(6)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(6)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(6)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(6)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(6)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g8">
+						<img id="img8" class="img"  src="images/grass.png">
+						<div class="tools" id="t8">
+                        	<ul class="toolsul">
+                        		<li class="toolsli"><button id="li8" onclick="plough(7)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(7)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(7)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(7)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(7)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="garden" id="g9">
+						<img  id="img9" class="img" src="images/grass.png">
+                        <div class="tools" id="t9">
+	                        <ul class="toolsul">
+		                        <li class="toolsli"><button id="li9" onclick="plough(8)" class="toolsbut"><b>plough</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrozanas(8)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+		                        <li class="toolsli"><button onclick="plantpinap(8)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrazzberry(8)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+		                        <li class="toolsli"><button onclick="plantnanab(8)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+	                        </ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g10">
+						<img id="img10" class="img"  src="images/grass.png">
+						<div class="tools" id="t10">
+	                        <ul class="toolsul">
+                        		<li class="toolsli"><button id="li10" onclick="plough(9)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(9)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(9)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(9)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(9)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g11">
+						<img id="img11" class="img"  src="images/grass.png">
+						<div class="tools" id="t11">
+	                        <ul class="toolsul">
+                        		<li class="toolsli"><button id="li11" onclick="plough(10)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(10)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(10)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(10)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(10)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g12">
+						<img id="img12" class="img"  src="images/grass.png">
+						<div class="tools" id="t12">
+	                        <ul class="toolsul">
+		                        <li class="toolsli"><button id="li12" onclick="plough(11)" class="toolsbut"><b>plough</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrozanas(11)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+		                        <li class="toolsli"><button onclick="plantpinap(11)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrazzberry(11)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+		                        <li class="toolsli"><button onclick="plantnanab(11)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+	                        </ul>
+                        </div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="garden" id="g13">
+						<img id="img13" class="img"  src="images/grass.png">
+						<div class="tools" id="t13">
+	                        <ul class="toolsul">
+		                        <li class="toolsli"><button id="li13" onclick="plough(12)" class="toolsbut"><b>plough</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrozanas(12)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+		                        <li class="toolsli"><button onclick="plantpinap(12)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrazzberry(12)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+		                        <li class="toolsli"><button onclick="plantnanab(12)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+	                        </ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g14">
+						<img id="img14" class="img"  src="images/grass.png">
+						<div class="tools" id="t14">
+	                        <ul class="toolsul">
+		                        <li class="toolsli"><button id="li14" onclick="plough(13)" class="toolsbut"><b>plough</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrozanas(13)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+		                        <li class="toolsli"><button onclick="plantpinap(13)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+		                        <li class="toolsli"><button onclick="plantrazzberry(13)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+		                        <li class="toolsli"><button onclick="plantnanab(13)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+	                        </ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g15">
+						<img id="img15" class="img"  src="images/grass.png">
+						<div class="tools" id="t15">
+	                        <ul class="toolsul">
+                        		<li class="toolsli"><button id="li15" onclick="plough(14)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(14)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(14)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(14)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(14)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+				<td>
+					<div class="garden" id="g16">
+						<img id="img16" class="img"  src="images/grass.png">
+						<div class="tools" id="t16">
+	                        <ul class="toolsul">
+                        		<li class="toolsli"><button id="li16" onclick="plough(15)" class="toolsbut"><b>plough</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrozanas(15)" class="toolsbut"><b>plant<br> rozanas</b></button></li>
+                        		<li class="toolsli"><button onclick="plantpinap(15)" class="toolsbut"><b>plant<br> pinap</b></button></li>
+                        		<li class="toolsli"><button onclick="plantrazzberry(15)" class="toolsbut"><b>plant<br> razzberry</b></button></li>
+                        		<li class="toolsli"><button onclick="plantnanab(15)" class="toolsbut"><b>plant<br> nanab</b></button></li>
+                        	</ul>
+                        </div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!--No ideea why is Jimmy, it's just something common for them, Bank is a div for resources and the rest are clear-->
+	<div class="Market litBro">
+		<div class="Bank Jimmy">
+			<div id="money" class="money progress"></div>
+			<div  class="resources progress" id="resource">resources</div>
+			<div class="allIHave">
+				<ul>
+            		<li id="rozanas" class="myli"></li>
+            		<li id="pinap" class="myli"></li>
+            		<li id="razzberry" class="myli"> </li>
+            		<li id="nanab" class="myli"> </li>
+            		<li id="water" class="myli"> </li>
+				</ul>
+			</div>
+		</div>
+		<div class="buy exchange Jimmy"><p>Buy</p></div>
+<!--Here is the hided part-->
+            <div class="buyul">
+            	<ul>
+            		<li class="buyli liSize"><b>rozanas Price: 20</b> <button onclick="buyrozanas()" class="buybutton">BUY</button></li>
+            		<li class="buyli liSize"><b>pinap Price: 40</b> <button onclick="buypinap()" class="buybutton">BUY</button></li>
+            		<li class="buyli liSize"><b>razzberry Price: 50</b><button onclick="buyrazzberry()" class="buybutton">BUY</button></li>
+            		<li class="buyli liSize"><b>nanab Price: 80</b> <button onclick="buynanab()" class="buybutton">BUY</button></li>
+            		<li class="buyli liSize"><b>water Price: 10s</b> <button onclick="buywater()" class="buybutton">BUY</button></li>
+            	</ul>
+            </div>
+<!--Here the hided part ends-->         
+		<div class="sell exchange Jimmy"><p class="seelp">Sell</p></div>
+<!--Here is the hided part-->
+            <div class="sellul">
+            	<ul>
+            		<li class="selli liSize"><b>rozanas Price: 30</b> <button onclick="sellrozanas()" id="rozana1" class="buybutton">Sell</button></li>
+            		<li class="selli liSize"><b>pinap  Price: 60</b> <button onclick="sellpinap()" id="pinap1" class="buybutton">Sell</button></li>
+            		<li class="selli liSize"><b>razzberry Price: 60</b> <button onclick="sellrazzberry()" id="razzberry1" class="buybutton">Sell</button></li>
+            		<li class="selli liSize"><b>nanab Price: 120</b> <button onclick="sellnanab()" id="nanab1" class="buybutton">Sell</button></li>
+            	</ul>
+            </div>
+<!--Here the hided part ends-->			
+		<div class="logo Jimmy"></div>
+	</div>
+</div>
+<!--This div is for all products, becouse they'll apear with hover-->
+<div class="fruits"></div>
+<!--Here starts the tutorial part-->
+<div class="tutut" id="tutut1">
+	<img id="ash1" src="images/AshX.png">
+	<img id="logo1" src="images/logo.png">
+	<div id="tut1">
+		<h2 class="tutext">Hello my friend!!!</h2>
+		<br>
+		<p class="tutext"><b>
+			My name is Ash and this is my Pokemon - Pikachu. <br> Unfortunately i have to go to a championship
+            <br>and i have no one to take care of my garden <br> I hope you'l help me to grow my vegetabes<br>
+            I have to run right now so Pikachu will help you 
+		</b></p>
+		<button onclick="tutorial1()" class="next"><b>Next</b></button>
+	</div>
+	<img id="pika1" src="images/PikaX.png">
+	<div id="tut2">
+		<h2 class="tutext">*Pika Pika*</h2>
+		<br>
+		<p class="tutext"><b>
+			My name is Pikachu and let me to show you my friends<br> that will help you until all your way<br>
+			Come with me to see them
+		</b></p>
+		<button onclick="tutorial2()" class="next"><b>Next</b></button>
+	</div>
+	<img id="farmer1" src="images/farmer.png">
+	<div id="tut3">
+		<h2 class="tutext">*Oni Oni*</h2>
+		<br>
+		<p class="tutext">
+			My name is Omidon and i will help you to plough, plant and take your vegetables<br>
+			Come with me and i will show you how to work with the ground.
+		</p>
+		<button onclick="tutorial3()" class="next"><b>Next</b></button>
+	</div>
+</div>
+<div class="tutut" id="tutut2">
+	<img id="arrow" src="images/arrow.png">
+	<img id="logo2" src="images/logo.png">
+	<div id="tut4">
+	  <h2>First of all you have to plough the ground</h2>
+	  <br>
+	  <p>
+	  	  To plough the ground put the cursor on the mentioned place and then click the "plough" button
+	  </p>  
+	</div>
+	<div id="tut7">
+		 <h2>Great job! now let's plant our rozana</h2>
+	  <br>
+	  <p>
+	  	  To plant rozanas put the cursor on the ploughd place and then click the "plant rozanas" button
+	  </p>  
+	</div>
+	<div id="tut9">
+		<h2>Wait for the grass to grow enough</h2>
+	  <br>
+	  <p>
+	  	  Wait the grass to grow enough and then click the "water" button
+	  </p>  
+	</div>
+	<div id="tut10">
+		<h2>Great!!!</h2>
+	  <br>
+	  <p>
+	  	Now you have to wait until the rozana will be ready and click the "Take it" button
+	  </p>  
+	</div>
+	<img id="farmer2" src="images/farmer.png">
+</div>
+<div class="tutut" id="tutut3">
+	<img src="images/seller.png" class="seller">
+	<img id="logo1" src="images/logo.png">
+	<div id="tut5">
+	  <h2>*sqeeez sqeeez*</h2>
+	  <br>
+	  <p >
+	  	  I will help you to buy and sell thnigs<br>
+	  	  first put your cursor on the buy button<br>
+	  	  and then click the "BUY" button in the rozanas line to buy a rozana
+	  </p>  
+	</div>
+	<div id="tut6">
+	  <h2>Now check how many rozanas do you have</h2>
+	  <br>
+	  <p >
+	  	  put your cursor on the resources button to see the resources that you have
+	  </p>
+	  <button onclick="tutorial4()" class="next"><b>Next</b></button>  
+	</div>
+	<div id="tut8">
+		<h2>We will need some water for our work</h2>
+	  <br>
+	  <p>
+	  	  put your cursor on the "Buy" button and click the "buy" button in water line to get some water<br>
+	  	  you have to wait 10 seconds and then you will have some water
+	  </p>
+	</div>
+	<div id="tut11">
+		<h2>Great job</h2>
+	  <br>
+	  <p>
+	  	  now you have just to put your cursor on the sell button and click on "sell" button <br>
+	  	  in rozanas line <br> Good luck
+	  </p>
+	</div>
+</div>
+<div id="Block"></div>
+</body>
+<script type="text/javascript" src="js/garden/Plant.js"></script>
+<script type="text/javascript" src="js/Tutorial.js"></script>
+<script type="text/javascript" src="js/variables.js"></script>
+<script type="text/javascript" src="js/Market/BUY.js"></script>
+<script type="text/javascript" src="js/Market/SELL.js"></script>
+<script type="text/javascript" src="js/garden/plough.js"></script>
+</html>

@@ -1,0 +1,192 @@
+/*---------------------
+-------------------
+---------------------------
+Here starts the Tutorial*/
+.tutut{
+	position: absolute;
+	background-color:#ffcb05eb;
+	border-radius: 100px;
+    border-color: brown;
+    border-width: 7px;
+    border: solid;
+}
+#tutut1{
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}
+#tutut2{
+    display: none;
+	width: 70%;
+	height: 90%;
+	top: 5%;
+	left: 28%;
+}
+#tutut3{
+	display: none;
+	width: 70%;
+	height: 80%;
+	top: 5%;
+	left: 5%;
+}
+#tut1{
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut2{
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut3{
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut4{
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut5{
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut6{
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut7{
+	display: none;
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut8{
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut9{
+	display: none;
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut10{
+	display: none;
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#tut11{
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
+#ash1{
+    margin: 5% 5% 7% 10%;
+}
+#logo1{
+	position: absolute;
+	right: 8%;
+	top: 2%;
+	width: 50%;
+	height: auto;
+}
+#logo2{
+	position: absolute;
+	width: 45%;
+	height: auto;
+	top: 2%;
+	left: 8%;
+}
+.next{
+	width: 100px;
+	height: 50px;
+	margin-left: 80%;
+	padding-top: 6px;
+	border-width: 10px;
+	border: solid;
+	border-color: #3c5aa6;
+	border-radius: 20px;
+    background-color:#ffcb05eb;
+}
+#pika1{
+	display: none;
+    margin: 3% 5% 7% 8%;	
+}
+#farmer1{
+	display: none;
+	width: 35%;
+	height: auto;
+    margin: 5% 5% 7% 8%;	
+}
+#farmer2{
+	position: absolute;
+	display: inline-block;
+	width: 35%;
+	height: auto;
+    margin: 10% 5% 7% 8%;
+    right: 1%;
+}
+#arrow{
+	position: absolute;
+	height: 50%;
+	width: auto;
+	left: -35%;
+	top: 25%;
+}
+.seller{
+	position: absolute;
+	width: 35%;
+	height: auto;
+	left: 1%;
+	margin: 3% 5% 7% 8%;	
+
+}
+
+
+/*Here ends the tutorial part*/
